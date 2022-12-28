@@ -3,7 +3,6 @@ const router = express.Router()
 
 const noteActions = require('../actions/api/noteActions')
 
-
 // pobieranie notatek
 router.get('/notes', noteActions.getAllNotes);
 // pobieranie notatki
