@@ -3,5 +3,5 @@ const { database } = require('../config')
 mongoose.set('strictQuery', false);
 
 // db connect
-mongoose.connect(database,{});
+mongoose.connect(database, {dbName: 'notes-app'});
 
